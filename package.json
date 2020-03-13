@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha",
+    "test": "mocha",
     "start": "node server.js 8000 ",
     "live": "nodemon -i docs server.js"
   },
