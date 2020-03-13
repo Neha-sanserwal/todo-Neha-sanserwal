@@ -9,7 +9,7 @@ describe('Session', function() {
       sinon.useFakeTimers(new Date('1/1/1997').getTime());
     });
     it('should create new session for given user', function() {
-      const expected = new Session(852057040000, 'john');
+      const expected = new Session(852076840000, 'john');
       assert.deepStrictEqual(Session.createSession('john'), expected);
     });
   });
